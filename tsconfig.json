@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "outDir": "lib/",
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ES2015",
+    "strict": true
+  },
+  "include": [
+    "index.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
